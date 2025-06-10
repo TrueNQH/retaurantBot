@@ -1,9 +1,9 @@
 require("dotenv").config();
 import  express from "express";
-import configViewEngine from "./src/config/viewEngine";
-import initWebRoutes from "./src/routes/web";
+import configViewEngine from "./config/viewEngine";
+import initWebRoutes from "./routes/web";
 import bodyParser from "body-parser";
-import initCronJob from "./src/config/cronJob";
+import initCronJob from "./config/cronJob";
 
 let app = express();
 
